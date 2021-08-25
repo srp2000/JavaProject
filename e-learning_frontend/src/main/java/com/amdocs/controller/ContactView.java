@@ -1,7 +1,4 @@
 package com.amdocs.controller;
-
-
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -16,10 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import com.amdocs.training.dao.ContactDAO;
 import com.amdocs.training.dao.impl.ContactDAOImpl;
 import com.amdocs.training.model.Contact;
-
-
-
-
 
 @WebServlet("/viewContacts")
 public class ContactView extends HttpServlet {
